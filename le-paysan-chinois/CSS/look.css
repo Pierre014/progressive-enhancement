@@ -1,0 +1,116 @@
+
+
+body{
+    background-image:linear-gradient(to right, rgba(221, 128, 33,0.1),rgba(209, 96, 27,0.6)), url(../images/tableaux-encadres-vieux-fermier-chinois-avec-le-chapeau-desherbage.jpg);
+    background-repeat: repeat, no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+}
+
+p{
+    color: rgb(24, 4, 4);
+    font-weight: bolder;
+    line-height: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+a:hover{
+
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Girassol', cursive;
+}
+
+.citation{
+    margin-left: 20%;
+    font-size: 160%;
+    background-color: grey;
+    border-left: 3px solid #842E1B;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-style: italic;
+}
+.paysan{
+
+    border-left: 3px solid red;
+}
+.fermier{
+
+    border-left: 3px solid green;
+}
+
+.head>.titre{
+
+    background-color: yellow;
+}
+h1.titre{
+
+    color:red;
+}
+
+.bien,.mal{
+
+    text-transform: uppercase;
+
+}
+.mal{
+    color:red;
+}
+.bien{
+    color:green;
+}
+td:nth-child(1){
+
+    background-color: white;
+}
+td:nth-child(2){
+
+    background-color: grey;
+}
+ul>li{
+    line-height: 50px;
+}
+ul>li:nth-child(1){
+
+    background-image: url(../images/bien.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 25%;
+    font-weight: bolder;
+}
+ul>li:nth-child(2){
+
+    background-image: url(../images/mal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 25%;
+}
+ul>li:nth-child(3){
+
+    background-image: url(../images/chat.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 22%;
+}
+.image{
+
+    float: left;
+    margin: 5px;
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
