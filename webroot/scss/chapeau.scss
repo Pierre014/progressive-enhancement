@@ -4,31 +4,7 @@ $headerSectionColor: #1c94cc;
 $color: white;
 
 /*menu navigation*/
-nav{
-
-    height: 100px;
-    text-align: center;
-    color: $color;
-    background-color: $navFooterColor;
-
-}
-
-ul{
-    list-style-type: none;
-}
-
-li{
-    display: inline-block;
-    line-height: 60px;
-    padding: 20px;
-}
-ul{
-    
-    li:nth-child(9){
-
-    margin-left: 150px;
-    }
-}
+@import '../modulescss/nav.scss';
 /*le header*/
 header{
 
@@ -69,8 +45,10 @@ h1{
     text-align: center;
     padding-left: 340px;
     color: black;
-    font-size: 25px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font: {
+        size: 25px;
+        family:'Source Sans Pro', sans-serif;
+    } 
     
 }
 /*section simple for use*/

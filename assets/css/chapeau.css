@@ -1,5 +1,6 @@
 /*ici les variables utiles*/
 /*menu navigation*/
+/*menu navigation*/
 nav {
   height: 100px;
   text-align: center;
@@ -11,14 +12,14 @@ ul {
   list-style-type: none;
 }
 
+ul li:nth-child(9) {
+  margin-left: 150px;
+}
+
 li {
   display: inline-block;
   line-height: 60px;
   padding: 20px;
-}
-
-ul li:nth-child(9) {
-  margin-left: 150px;
 }
 
 /*le header*/

@@ -1,0 +1,25 @@
+/*menu navigation*/
+$navFooterColor: black;
+nav{
+
+    height: 100px;
+    text-align: center;
+    color: $color;
+    background-color: $navFooterColor;
+
+}
+
+ul{
+    list-style-type: none;
+    
+    li:nth-child(9){
+
+        margin-left: 150px;
+        }
+}
+
+li{
+    display: inline-block;
+    line-height: 60px;
+    padding: 20px;
+}
